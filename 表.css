@@ -1,0 +1,37 @@
+@charset 'utf8';
+    /*スタイルトップ*/
+.part{
+    display: block;
+    color: aliceblue;
+    background: blue;
+}
+.red{
+    color: rgb(66, 55, 144);
+}
+    /*属性変更により、個別選択をする*/
+.atama{
+    color: rgb(255, 255, 255);
+    background-color: red;
+} 
+    /* tdでは不可、thに変更　class設定に */
+.atama-1{
+    color: aqua;
+    background-color: blue;
+}
+
+.siba{
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    
+}
+.da-to{
+    color: white;
+    background-color: brown;
+
+}
+    /*宣伝*/
+li::first-line {
+    font-size:3rem;
+    }
+
+    /*追加効果はJSへ*/
