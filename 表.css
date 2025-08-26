@@ -1,6 +1,7 @@
 @charset 'utf8';
     /*スタイルトップ*/
 .part{
+    width: auto;
     display: block;
     color: aliceblue;
     background: blue;
@@ -14,9 +15,9 @@
     background-color: red;
 } 
     /* tdでは不可、thに変更　class設定に */
-.atama-1{
-    color: aqua;
-    background-color: blue;
+.sapporo{
+    color: black;
+    background-color: rgb(145, 145, 242);
 }
 
 .siba{
@@ -27,7 +28,11 @@
 .da-to{
     color: white;
     background-color: brown;
+}
 
+.niigata{
+    color: black;
+    background-color: rgb(215, 173, 255);
 }
     /*宣伝*/
 li::first-line {
