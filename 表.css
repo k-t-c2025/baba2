@@ -2,12 +2,15 @@
 
     /*スタイルトップ*/
 .part{
+    padding-left:50px ;
     width: auto;
     display: block;
     color: aliceblue;
     background: blue;
 }
 .red{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
     color: rgb(66, 55, 144);
 }
     /*属性変更により、個別選択をする*/
