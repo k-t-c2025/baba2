@@ -38,7 +38,12 @@
     color: black;
     background-color: rgb(215, 173, 255);
 }
-    /*宣伝*/
+
+.chuukyou{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+/*宣伝*/
 li::first-line {
     font-size:3rem;
     }
